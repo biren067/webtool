@@ -1,0 +1,120 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: var(--background-blue-06); 
+    border-color: #44cc11; 
+  }
+  
+  /* .button {
+    background-color: #ff5a5f; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e04148; 
+  }
+   */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-link {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+  }
+  
+  .pagination .page-item.active .page-link {
+    /* background-color: #ff5a5f;  */
+    /* border-color: #ff5a5f;  */
+    color: white;
+  }
+  
+  .mainPage{
+    /* color:white; */
+    }
+
+.mainPage__button_number:hover{
+    background-color:var(--background-blue-00); 
+    border-color: white;
+    
+}
+.mainPage__button{
+    /* background-color:var(--background-blue-00);  */
+    color: var(--background-blue-04);
+    /* border: 1px solid #ff5a5f; */
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin:5px 10px;
+}
+.mainPage__button_number{
+    /* border:1px solid #ff5a5f;
+    background-color: #ff5a5f; */
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin: 5px 8px;
+    /* color: white; */
+}
+.mainPage__pagination{
+    text-align: center;
+}

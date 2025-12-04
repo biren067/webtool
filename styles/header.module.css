@@ -1,0 +1,7 @@
+.menu{
+  border-bottom:2px solid yellow;
+}
+.headerbar{
+  background-color: var(--background-blue-01);
+  color: var(--color-white-00);
+}
